@@ -1,0 +1,211 @@
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: none;
+}
+
+
+@media screen and (max-width: 800px) {
+  header {
+    width: 60px !important;
+    max-width: 60px;
+    min-width: 60px;
+  }
+  header nav ul li i {
+    padding-right: 15px !important;
+  }
+  ul#chat li {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .Texts-Message {
+    padding-right: 0px !important;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .logo img{
+    padding: 25px !important;
+  }  
+}
+
+
+
+
+body {
+  width: 100%;
+  background: #f2f2f2;
+  background: #2e2e2e;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  height: 100vh;
+}
+
+header {
+  transition: 0.4s ease-in-out all;
+  width: 100%;
+  max-width: 200px; 
+  justify-content: center;
+  background: #2e2e2e;
+}
+
+
+header nav ul li {
+  transition: 0.7s all;
+  user-select: none;
+  height: 25px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+header nav ul li:hover {
+  height: 25px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  background-color: #d7d7d7;
+}
+
+header nav ul li span {
+  transition: 0.7s all;
+  margin: 0 auto;
+  margin-left: 0;
+  word-break: keep-all;
+  word-wrap: normal;
+}
+
+header nav ul li i {
+  font-size: 20px;
+  padding: 1.5px;
+
+
+  /* Active */
+  padding-right: 15px !important;
+  padding-left: 10px !important;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+}
+
+.logo img{
+  transition: 0.7s ease-out all;
+  display: flex;
+  margin: 0 auto;
+  width: 30px;
+  padding: 15px;
+}
+
+main {
+  background: #f2f2f2;
+
+  /* width: 100%; */
+  
+  
+  width: calc(100% - 20px);
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.control {
+  width: calc(100% - 10px);
+  background-color: #e2e2e2;
+  margin: 5px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.control input[type="text"]#field {
+  width: calc(100% - 42.5px);
+  height: 35px;
+  margin: 2.5px;
+  margin-right: 0;
+  border-radius: 10px;
+  text-indent: 5px;
+  background-color: white;
+  display: flex;
+}
+
+.control button {
+  width: 35px;
+  height: 35px;
+  margin: 2.5px;
+  border-radius: 10px;
+  background-color: rgb(86, 189, 230);
+  color: white;
+  line-height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.control button i {
+  font-size: 20px;
+}
+
+ul li {
+  transition: 0.4s all;
+  width: calc(100% - 20px);
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+}
+
+.Costume-catEars {
+  background-image: url(/cat_ear.png);
+  background-size: 60px;
+  background-repeat: no-repeat;
+}
+
+.messageBody {
+  display: flex;
+}
+
+.AvatarBack {
+  width: 60px;
+}
+
+.AvatarMain {
+  width: 40px;
+  margin: 10px;
+}
+
+.TextsMain {
+  padding-top: 10px;
+}
+
+.Texts-Username {
+  margin-bottom: 2.5px;
+}
+
+.Texts-Message {
+  transition: 0.4s all;
+  padding-right: 10px;
+  word-break: break-all;
+}
+
+.Texts-Message a{
+  color: blue;
+  word-break: break-all;
+  cursor: pointer;
+}
+
+hr {
+  width: calc(100% - 10px);
+  background-color: #f2f2f2;
+  height: 2px;
+  border-radius: 2px;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
