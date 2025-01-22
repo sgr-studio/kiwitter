@@ -110,7 +110,7 @@ main {
   
   
   width: calc(100% - 20px);
-  height: calc(100% - 20px);
+  height: calc(100vh - 20px);
   margin: 5px;
   padding: 5px;
   border-radius: 5px;
